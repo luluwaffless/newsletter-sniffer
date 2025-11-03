@@ -45,6 +45,8 @@ const check = async () => {
     } catch (e) {
         log("error", e);
     };
+    log("Check complete.");
     setTimeout(check, 60000);
 };
+log("Hello World!");
 check();
