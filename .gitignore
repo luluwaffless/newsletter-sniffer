@@ -1,0 +1,5 @@
+package-lock.json
+newsletters.json
+node_modules/
+*.log
+.env
